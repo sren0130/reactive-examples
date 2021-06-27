@@ -1,0 +1,8 @@
+This project is from the URL:
+    https://jstobigdata.com/spring/spring-webflux-rest-api-with-mongodb-and-spring-data/
+
+application.yml should not contain user name and password for mongodb.
+
+Annotation based controller is used.
+
+To enable functional endpoint, annotation based controller should be disabled, just by comment out @RestController, @RequestMapping.
